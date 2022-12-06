@@ -1,0 +1,37 @@
+.origin{
+    width: 50%;
+    margin: auto;
+  }
+  .ex{
+    position: relative;
+    display: flex;
+    align-items:center;
+    
+    height: 30px;
+    margin: 5px; 
+    width: 50%;
+    background-color: bisque;
+    border: 1px solid gray;
+  }
+ 
+  .check{
+    background-color: green;
+    text-decoration: line-through;
+  }
+  .dont{
+    display: none;
+  }
+  .del{
+    position: absolute;
+    right: 20px;
+    
+  }
+  .show{
+    margin: 10px
+  }
+  .buttons{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+  }
